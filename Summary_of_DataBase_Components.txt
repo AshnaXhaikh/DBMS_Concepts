@@ -1,0 +1,40 @@
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                              QUICK REFERENCE: DATABASE COMPONENTS                                   │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                                     │
+│   ┌─────────────────────────────────────────────────────────────────────────────────────────────┐  │
+│   │                                                                                             │  │
+│   │   📌 FIELD                                                                                  │  │
+│   │   • A single category of information                                                        │  │
+│   │   • Also called COLUMN or ATTRIBUTE                                                         │  │
+│   │   • Example: "Student Name", "Roll Number", "Grade"                                         │  │
+│   │                                                                                             │  │
+│   │   📌 RECORD                                                                                 │  │
+│   │   • A complete set of information about one item                                            │  │
+│   │   • Also called ROW or TUPLE                                                                │  │
+│   │   • Example: [101, "Ali Khan", "Grade 9", "A"]                                              │  │
+│   │                                                                                             │  │
+│   │   📌 TABLE                                                                                  │  │
+│   │   • A collection of related records                                                         │  │
+│   │   • Organized in rows and columns                                                           │  │
+│   │   • Example: "STUDENTS" table with all student records                                      │  │
+│   │                                                                                             │  │
+│   │   📌 VIEW                                                                                   │  │
+│   │   • A virtual table based on a query                                                        │  │
+│   │   • Does NOT store data separately                                                          │  │
+│   │   • Shows specific data from one or more tables                                             │  │
+│   │   • Example: "Active Students" view (only students with status 'Active')                    │  │
+│   │                                                                                             │  │
+│   └─────────────────────────────────────────────────────────────────────────────────────────────┘  │
+│                                                                                                     │
+│   📊 ANALOGY TO REMEMBER:                                                                          │
+│                                                                                                     │
+│   ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     │
+│   │   📁 FILE       │     │   📝 FIELD      │     │   📄 RECORD     │     │   📚 TABLE      │     │
+│   │   CABINET       │     │   (Drawer Label)│     │   (One Folder)  │     │   (Full Drawer) │     │
+│   │   = DATABASE    │     │   = COLUMN      │     │   = ROW         │     │   = COLLECTION  │     │
+│   └─────────────────┘     └─────────────────┘     └─────────────────┘     └─────────────────┘     │
+│                                                                                                     │
+│   🎯 NEXT CLASS: We will learn how to DESIGN databases using ER Diagrams!                          │
+│                                                                                                     │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────┘
